@@ -13,7 +13,15 @@ import { Text, View } from "react-native";
 }*/
 
 //Functional Component
-const App = () => {
+/*const App = () => {
+  return (
+    <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
+      <Text>Hello World!</Text>
+    </View>
+  );
+}*/
+
+function App(){
   return (
     <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
       <Text>Hello World!</Text>
